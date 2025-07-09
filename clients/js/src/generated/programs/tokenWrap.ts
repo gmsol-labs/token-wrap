@@ -20,7 +20,7 @@ import {
 } from '../instructions';
 
 export const TOKEN_WRAP_PROGRAM_ADDRESS =
-  'TwRapQCDhWkZRrDaHfZGuHxkZ91gHDRkyuzNqeU5MgR' as Address<'TwRapQCDhWkZRrDaHfZGuHxkZ91gHDRkyuzNqeU5MgR'>;
+  '12cJKgP9r2bcaruqu3XsCS1hxLqsHrmZhqG5Qy2TWRap' as Address<'12cJKgP9r2bcaruqu3XsCS1hxLqsHrmZhqG5Qy2TWRap'>;
 
 export enum TokenWrapAccount {
   Backpointer,
@@ -55,7 +55,7 @@ export function identifyTokenWrapInstruction(
 }
 
 export type ParsedTokenWrapInstruction<
-  TProgram extends string = 'TwRapQCDhWkZRrDaHfZGuHxkZ91gHDRkyuzNqeU5MgR',
+  TProgram extends string = '12cJKgP9r2bcaruqu3XsCS1hxLqsHrmZhqG5Qy2TWRap',
 > =
   | ({
       instructionType: TokenWrapInstruction.CreateMint;

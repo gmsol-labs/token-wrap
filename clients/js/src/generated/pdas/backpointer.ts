@@ -23,7 +23,7 @@ export async function findBackpointerPda(
   config: { programAddress?: Address | undefined } = {}
 ): Promise<ProgramDerivedAddress> {
   const {
-    programAddress = 'TwRapQCDhWkZRrDaHfZGuHxkZ91gHDRkyuzNqeU5MgR' as Address<'TwRapQCDhWkZRrDaHfZGuHxkZ91gHDRkyuzNqeU5MgR'>,
+    programAddress = '12cJKgP9r2bcaruqu3XsCS1hxLqsHrmZhqG5Qy2TWRap' as Address<'12cJKgP9r2bcaruqu3XsCS1hxLqsHrmZhqG5Qy2TWRap'>,
   } = config;
   return await getProgramDerivedAddress({
     programAddress,
